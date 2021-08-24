@@ -1,0 +1,13 @@
+#! /usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	dh_auto_build $@
+	DOWNLOAD_ONLY=1 ./download_webclient.sh
+	unzip dist.zip -d obj-x86_64-linux-gnu/
+
+override_dh_auto_clean:
+	dh_auto_clean $@
+	rm dist.zip || true

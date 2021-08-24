@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <Property Id="ARPCOMMENTS" Value="Streato Media Player for Windows" />
+  <Property Id="ARPCONTACT" Value="Streato" />
+  <Property Id="ARPPRODUCTICON" Value="StreatoMediaPlayerIcon" />
+  <Property Id="ARPURLINFOABOUT" Value="$(var.StreatoWebsiteUrl)" />
+  <Property Id="ARPURLUPDATEINFO" Value="$(var.StreatoWebsiteUrl)" />
+  <Property Id="ARPHELPLINK" Value="$(var.StreatoWebsiteUrl)" />
+  <CustomAction Id="SetARPINSTALLLOCATION" Property="ARPINSTALLLOCATION" Value="[INSTALLDIR]" />
+  <InstallExecuteSequence>
+    <Custom Action="SetARPINSTALLLOCATION" After="InstallValidate"></Custom>
+  </InstallExecuteSequence>
+</Include>
+
+

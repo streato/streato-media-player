@@ -1,0 +1,1 @@
+start "" "StreatoMediaPlayer.exe" "--disable-gpu"

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <?define ProductName=Streato Media Player ?>
+  <?define ProductDesc=Streato Media Player for Windows ?>
+  <?define ProductUUID=abea6faf-13ea-465f-b2bd-a24b5524e98b ?>
+  <?define StreatoWebsiteUrl=https://streato.com ?>
+  <?define LanguageCode=1033 ?>
+  <?define LaunchCondition_PerUser=Streato Media Player does not allow per-user installations. Setup will now exit ?>
+  <?define OldWindowsError=Streato Media Player requires at least Windows 7 ?>
+  <?define NewerVersionError=A newer version of Streato Media Server is already installed ?>
+</Include>
