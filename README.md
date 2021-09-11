@@ -1,4 +1,4 @@
-# Jellyfin Media Player
+# Streato Media Player
 
 Desktop client using jellyfin-web with embedded MPV player. Supports Windows, Mac OS,
 and Linux. Media plays within the same window using the jellyfin-web interface unlike
