@@ -2,13 +2,7 @@
 
 Desktop client using jellyfin-web with embedded MPV player. Supports Windows, Mac OS,
 and Linux. Media plays within the same window using the jellyfin-web interface unlike
-Jellyfin Desktop. Supports audio passthrough. Based on [Plex Media Player](https://github.com/plexinc/plex-media-player).
-
-![Screenshot of Jellyfin Media Player](https://raw.githubusercontent.com/iwalton3/mpv-shim-misc-docs/master/images/jmp-player-win.png)
-
-Downloads:
- - [Windows, Mac, and Linux Releases](https://github.com/jellyfin/jellyfin-media-player/releases)
- - [Flathub (Linux)](https://flathub.org/apps/details/com.github.iwalton3.jellyfin-media-player)
+Jellyfin Desktop. Supports audio passthrough.
 
 Related Documents:
  - Corresponding web client: [Repo](https://github.com/iwalton3/jellyfin-web-jmp/) [Release](https://github.com/iwalton3/jellyfin-web-jmp/releases/)
@@ -128,6 +122,6 @@ If you have problems:
 
 ## License
 
-Jellyfin Media Player is licensed under GPL v2. See the ``LICENSE`` file.
+Streato Media Player is licensed under GPL v2. See the ``LICENSE`` file.
 Licenses of dependencies are summarized under ``resources/misc/licenses.txt``.
 This file can also be printed at runtime when using the ``--licenses`` option.
